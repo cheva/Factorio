@@ -1,0 +1,45 @@
+*mods*
+*mods*/
+*mods*/*
+
+mods
+mods/
+mods/*
+
+*.lock
+.lock
+
+# Log files
+*.log
+
+# Tmp files
+temp/*
+*.tmp
+
+# Src files
+*.src 
+*.src/
+*.src/*
+
+# Data files
+*.dat
+
+# Package files
+*.jar
+
+# Applications
+*.7z
+*.zip
+*.app
+*.exe
+*.pck
+*.war
+
+# Large media files
+*.mp4
+*.tiff
+*.avi
+*.flv
+*.mov
+*.wmv
+
