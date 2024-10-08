@@ -142,7 +142,7 @@
     },
     "electric-pole-connections": 
     {
-      "status": "suggested"
+      "status": "completed"
     },
     "low-power": 
     {
@@ -279,7 +279,9 @@
         
         {},
         
-        {},
+        {
+          "count": 48
+        },
         
         {}
       ]
