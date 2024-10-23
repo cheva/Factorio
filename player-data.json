@@ -17,14 +17,9 @@
   },
   "tips": 
   {
-    "introduction": 
-    {
-      "status": "unlocked",
-      "elapsed": 0
-    },
     "show-info": 
     {
-      "status": "dependencies-not-met"
+      "status": "locked"
     },
     "e-confirm": 
     {
@@ -32,13 +27,38 @@
     },
     "clear-cursor": 
     {
-      "status": "dependencies-not-met"
+      "status": "completed"
     },
     "pipette": 
     {
-      "status": "locked"
+      "status": "completed"
     },
     "stack-transfers": 
+    {
+      "status": "locked",
+      "count": 4,
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {
+            "triggered": true
+          },
+          
+          {
+            "triggered": true
+          },
+          
+          {}
+        ]
+      }
+    },
+    "entity-transfers": 
+    {
+      "status": "completed-without-tutorial"
+    },
+    "z-dropping": 
     {
       "status": "locked",
       "skip_status": 
@@ -48,13 +68,31 @@
           
           {},
           
-          {},
+          {}
+        ]
+      }
+    },
+    "shoot-targeting": 
+    {
+      "status": "suggested",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {
+            "triggered": true
+          },
           
           {}
         ]
       }
     },
-    "entity-transfers": 
+    "bulk-crafting": 
+    {
+      "status": "completed"
+    },
+    "rotating-assemblers": 
     {
       "status": "locked",
       "conditions": 
@@ -62,9 +100,7 @@
         
         {},
         
-        {
-          "elapsed": 0
-        }
+        {}
       ],
       "skip_status": 
       {
@@ -77,59 +113,9 @@
         ]
       }
     },
-    "z-dropping": 
-    {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {
-          "elapsed": 0
-        }
-      ]
-    },
-    "shoot-targeting": 
-    {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {
-          "elapsed": 902
-        }
-      ]
-    },
-    "shoot-targeting-controller": 
-    {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {
-          "elapsed": 0
-        }
-      ]
-    },
-    "bulk-crafting": 
+    "entity-flip": 
     {
       "status": "locked"
-    },
-    "rotating-assemblers": 
-    {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {}
-      ]
     },
     "circuit-network": 
     {
@@ -141,98 +127,100 @@
         
         {
           "elapsed": 0
+        },
+        
+        {}
+      ],
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {}
+        ]
+      }
+    },
+    "spidertron-control": 
+    {
+      "status": "locked",
+      "conditions": 
+      [
+        
+        {},
+        
+        {
+          "elapsed": 0
+        },
+        
+        {}
+      ],
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {},
+          
+          {}
+        ]
+      }
+    },
+    "belt-lanes": 
+    {
+      "status": "completed"
+    },
+    "splitters": 
+    {
+      "status": "locked",
+      "conditions": 
+      [
+        
+        {},
+        
+        {
+          "count": 103
         }
       ]
     },
     "inserters": 
     {
-      "status": "locked"
+      "status": "completed"
     },
     "burner-inserter-refueling": 
     {
-      "status": "locked"
+      "status": "completed"
     },
     "long-handed-inserters": 
     {
-      "status": "locked"
+      "status": "suggested"
     },
     "move-between-labs": 
     {
-      "status": "locked"
+      "status": "suggested",
+      "skip_status": 
+      {
+        "count": 5
+      }
     },
     "insertion-limits": 
     {
-      "status": "locked"
+      "status": "completed"
     },
     "limit-chests": 
     {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {}
-      ]
-    },
-    "transport-belts": 
-    {
-      "status": "locked"
-    },
-    "belt-lanes": 
-    {
-      "status": "locked"
-    },
-    "splitters": 
-    {
-      "status": "locked"
-    },
-    "splitter-filters": 
-    {
-      "status": "locked"
-    },
-    "underground-belts": 
-    {
-      "status": "locked"
+      "status": "completed"
     },
     "electric-network": 
     {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {
-          "conditions": 
-          [
-            
-            {
-              "conditions": 
-              [
-                
-                {},
-                
-                {}
-              ]
-            },
-            
-            {
-              "elapsed": 0
-            }
-          ]
-        },
-        
-        {},
-        
-        {},
-        
-        {},
-        
-        {}
-      ]
+      "status": "completed"
     },
     "steam-power": 
     {
-      "status": "dependencies-not-met"
+      "status": "completed"
     },
     "electric-pole-connections": 
     {
@@ -241,7 +229,7 @@
       [
         
         {
-          "elapsed": 902
+          "elapsed": 250946
         },
         
         {}
@@ -249,27 +237,73 @@
     },
     "low-power": 
     {
-      "status": "locked"
+      "status": "locked",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {
+            "elapsed": 0
+          }
+        ]
+      }
     },
     "connect-switch": 
     {
-      "status": "locked"
+      "status": "locked",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {}
+        ]
+      }
     },
     "copy-entity-settings": 
     {
       "status": "locked"
     },
-    "copy-entity-settings-controller": 
-    {
-      "status": "locked"
-    },
     "copy-paste-trains": 
     {
-      "status": "locked"
+      "status": "locked",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {},
+          
+          {},
+          
+          {}
+        ]
+      }
     },
     "copy-paste-filters": 
     {
-      "status": "locked"
+      "status": "locked",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {},
+          
+          {},
+          
+          {}
+        ]
+      }
     },
     "copy-paste-requester-chest": 
     {
@@ -288,7 +322,7 @@
     },
     "drag-building": 
     {
-      "status": "locked"
+      "status": "completed"
     },
     "drag-building-poles": 
     {
@@ -296,7 +330,19 @@
     },
     "pole-dragging-coverage": 
     {
-      "status": "dependencies-not-met"
+      "status": "dependencies-not-met",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {
+            "elapsed": 0
+          }
+        ]
+      }
     },
     "drag-building-underground-belts": 
     {
@@ -304,7 +350,12 @@
     },
     "fast-belt-bending": 
     {
-      "status": "locked"
+      "status": "locked",
+      "count": 84,
+      "skip_status": 
+      {
+        "count": 1
+      }
     },
     "fast-obstacle-traversing": 
     {
@@ -312,7 +363,9 @@
       "conditions": 
       [
         
-        {},
+        {
+          "count": 84
+        },
         
         {}
       ]
@@ -426,15 +479,65 @@
         {},
         
         {}
-      ]
+      ],
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {
+            "conditions": 
+            [
+              
+              {},
+              
+              {},
+              
+              {}
+            ]
+          }
+        ]
+      }
     },
     "personal-logistics": 
     {
-      "status": "locked"
+      "status": "locked",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {},
+          
+          {
+            "conditions": 
+            [
+              
+              {},
+              
+              {}
+            ]
+          }
+        ]
+      }
     },
     "construction-robots": 
     {
-      "status": "locked"
+      "status": "locked",
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {}
+        ]
+      }
     },
     "passive-provider-chest": 
     {
@@ -501,25 +604,28 @@
         
         {
           "elapsed": 0
-        }
-      ]
+        },
+        
+        {}
+      ],
+      "skip_status": 
+      {
+        "conditions": 
+        [
+          
+          {},
+          
+          {}
+        ]
+      }
     },
     "fast-replace": 
     {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {},
-        
-        {}
-      ]
+      "status": "completed"
     },
     "fast-replace-direction": 
     {
-      "status": "locked"
+      "status": "completed"
     },
     "fast-replace-belt-splitter": 
     {
@@ -537,32 +643,11 @@
     },
     "fast-replace-belt-underground": 
     {
-      "status": "locked"
-    },
-    "entity-flip": 
-    {
-      "status": "locked"
-    },
-    "spidertron-control": 
-    {
       "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {
-          "elapsed": 0
-        },
-        
-        {}
-      ],
       "skip_status": 
       {
         "conditions": 
         [
-          
-          {},
           
           {},
           
@@ -574,7 +659,7 @@
   "last-played": 
   {
     "type": "single-player",
-    "save-name": "2.0.9_x150  start"
+    "save-name": "2.0.9_default  defend"
   },
   "service-username": "",
   "service-token": "",
@@ -661,8 +746,8 @@
     
     {
       "name": "give-copper-wire",
-      "docked": false,
-      "enabled": false
+      "docked": true,
+      "enabled": true
     },
     
     {
@@ -705,10 +790,12 @@
   ],
   "last-played-version": 
   {
-    "game_version": "1.1.110",
-    "build_version": 62357,
-    "build_mode": "full",
+    "game_version": "2.0.9",
+    "build_version": 79509,
+    "build_mode": "steam",
     "platform": "win64"
   },
-  "blueprint-view": "grid"
+  "blueprint-view": "list",
+  "hide-advert": "true",
+  "ticks-since-last-tip-shown": 32018
 }
