@@ -46,9 +46,7 @@
             "triggered": true
           },
           
-          {
-            "triggered": true
-          },
+          {},
           
           {}
         ]
@@ -229,7 +227,7 @@
       [
         
         {
-          "elapsed": 250946
+          "elapsed": 307847
         },
         
         {}
@@ -659,7 +657,7 @@
   "last-played": 
   {
     "type": "single-player",
-    "save-name": "2.0.9_default  defend"
+    "save-name": "_autosave3"
   },
   "service-username": "",
   "service-token": "",
@@ -790,12 +788,12 @@
   ],
   "last-played-version": 
   {
-    "game_version": "2.0.9",
-    "build_version": 79509,
-    "build_mode": "steam",
+    "game_version": "2.0.10",
+    "build_version": 79578,
+    "build_mode": "full",
     "platform": "win64"
   },
   "blueprint-view": "list",
   "hide-advert": "true",
-  "ticks-since-last-tip-shown": 32018
+  "ticks-since-last-tip-shown": 88919
 }
