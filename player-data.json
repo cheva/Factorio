@@ -52,10 +52,6 @@
     {
       "status": "completed"
     },
-    "shoot-targeting": 
-    {
-      "status": "completed"
-    },
     "shoot-targeting-controller": 
     {
       "status": "suggested"
@@ -228,6 +224,195 @@
       "status": "locked"
     },
     "bio-animals-1": 
+    {
+      "status": "locked"
+    },
+    "angelsexploration": 
+    {
+      "status": "locked",
+      "conditions": 
+      [
+        
+        {},
+        
+        {
+          "elapsed": 0
+        }
+      ]
+    },
+    "shoot-targeting": 
+    {
+      "status": "completed"
+    },
+    "angels-native-inhabitants": 
+    {
+      "status": "suggested"
+    },
+    "angels-native-inhabitants-spawner[biter-spawner]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[small-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[medium-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[big-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[behemoth-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[colossal-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-spawner[scarab-spawner]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[small-scarab]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[medium-scarab]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[big-scarab]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[behemoth-scarab]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[colossal-scarab]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-spawner[spitter-spawner]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[small-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[medium-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[big-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[behemoth-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[colossal-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-spawner[psyker-spawner]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[small-psyker]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[medium-psyker]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[big-psyker]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[behemoth-psyker]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[colossal-psyker]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-spawner[bob-biter-spawner]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-huge-acid-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-huge-explosive-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-big-piercing-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-giant-fire-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-giant-poison-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-titan-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-behemoth-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-leviathan-biter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-spawner[bob-spitter-spawner]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-huge-acid-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-huge-explosive-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-big-electric-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-giant-poison-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-giant-fire-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-titan-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-behemoth-spitter]": 
+    {
+      "status": "locked"
+    },
+    "angels-native-inhabitants-unit[bob-leviathan-spitter]": 
     {
       "status": "locked"
     },
@@ -654,6 +839,9 @@
     "biter_base_spidertron",
     "oil_refinery",
     "artillery",
-    "lab"
+    "lab",
+    "biter_base_artillery",
+    "early_smelting",
+    "big_defense"
   ]
 }

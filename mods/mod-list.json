@@ -44,6 +44,11 @@
     },
     
     {
+      "name": "angelsexploration",
+      "enabled": true
+    },
+    
+    {
       "name": "angelsindustries",
       "enabled": true
     },
