@@ -138,18 +138,7 @@
     },
     "angels-crushing": 
     {
-      "status": "locked",
-      "conditions": 
-      [
-        
-        {},
-        
-        {},
-        
-        {},
-        
-        {}
-      ]
+      "status": "suggested"
     },
     "angels-floatation": 
     {
@@ -236,7 +225,7 @@
         {},
         
         {
-          "elapsed": 0
+          "elapsed": 31022
         }
       ]
     },
@@ -720,7 +709,7 @@
   "last-played": 
   {
     "type": "single-player",
-    "save-name": "2001010"
+    "save-name": "AngelBob first resources"
   },
   "service-username": "",
   "service-token": "",
@@ -823,17 +812,6 @@
   "blueprint-view": "grid",
   "main-menu-simulations-played": 
   [
-    "mining_defense",
-    "biter_base_steamrolled",
-    "forest_fire",
-    "train_station",
-    "burner_city",
-    "logistic_robots",
-    "biter_base_laser_defense",
-    "brutal_defeat",
-    "solar_power_construction",
-    "chase_player",
-    "nuclear_power",
     "oil_pumpjacks",
     "spider_ponds",
     "biter_base_spidertron",
@@ -842,6 +820,9 @@
     "lab",
     "biter_base_artillery",
     "early_smelting",
-    "big_defense"
+    "big_defense",
+    "biter_base_player_attack",
+    "train_junction",
+    "mining_defense"
   ]
 }
