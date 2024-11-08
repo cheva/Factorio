@@ -134,13 +134,11 @@
     },
     "angels-ore-generation": 
     {
-      "status": "locked",
-      "elapsed": 0
+      "status": "suggested"
     },
     "angels-ore-refining": 
     {
-      "status": "unlocked",
-      "elapsed": 0
+      "status": "suggested"
     },
     "angels-crushing": 
     {
@@ -191,8 +189,7 @@
     },
     "angels-petrochem": 
     {
-      "status": "locked",
-      "elapsed": 0
+      "status": "suggested"
     },
     "angels-air-filtering": 
     {
@@ -200,8 +197,7 @@
     },
     "angelsbioprocessing": 
     {
-      "status": "locked",
-      "elapsed": 0
+      "status": "suggested"
     },
     "bio-nauvis-1": 
     {
@@ -619,15 +615,9 @@
     },
     
     {
-      "name": "helmod-shortcut",
-      "docked": true,
-      "enabled": true
-    },
-    
-    {
-      "name": "construction-drone-toggle",
-      "docked": true,
-      "enabled": true
+      "name": "toggle-ghosting",
+      "docked": false,
+      "enabled": false
     }
   ],
   "editor-lua-snippets": 
@@ -648,17 +638,6 @@
   "blueprint-view": "grid",
   "main-menu-simulations-played": 
   [
-    "oil_pumpjacks",
-    "early_smelting",
-    "biter_base_artillery",
-    "train_junction",
-    "lab",
-    "artillery",
-    "biter_base_spidertron",
-    "spider_ponds",
-    "big_defense",
-    "oil_refinery",
-    "biter_base_player_attack",
     "mining_defense",
     "biter_base_steamrolled",
     "forest_fire",
@@ -666,6 +645,15 @@
     "burner_city",
     "logistic_robots",
     "biter_base_laser_defense",
-    "brutal_defeat"
+    "brutal_defeat",
+    "solar_power_construction",
+    "chase_player",
+    "nuclear_power",
+    "oil_pumpjacks",
+    "spider_ponds",
+    "biter_base_spidertron",
+    "oil_refinery",
+    "artillery",
+    "lab"
   ]
 }
