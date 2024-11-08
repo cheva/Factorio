@@ -132,6 +132,109 @@
     {
       "status": "completed"
     },
+    "angels-ore-generation": 
+    {
+      "status": "locked",
+      "elapsed": 0
+    },
+    "angels-ore-refining": 
+    {
+      "status": "unlocked",
+      "elapsed": 0
+    },
+    "angels-crushing": 
+    {
+      "status": "locked",
+      "conditions": 
+      [
+        
+        {},
+        
+        {},
+        
+        {},
+        
+        {}
+      ]
+    },
+    "angels-floatation": 
+    {
+      "status": "locked"
+    },
+    "angels-leaching": 
+    {
+      "status": "locked"
+    },
+    "angels-purification": 
+    {
+      "status": "locked"
+    },
+    "angels-ore-sorting": 
+    {
+      "status": "unlocked"
+    },
+    "angels-water-processing": 
+    {
+      "status": "unlocked"
+    },
+    "angelsaddons-cab": 
+    {
+      "status": "locked"
+    },
+    "angelsaddons-mobility": 
+    {
+      "status": "locked"
+    },
+    "angelsaddons-storage": 
+    {
+      "status": "locked"
+    },
+    "angels-petrochem": 
+    {
+      "status": "locked",
+      "elapsed": 0
+    },
+    "angels-air-filtering": 
+    {
+      "status": "locked"
+    },
+    "angelsbioprocessing": 
+    {
+      "status": "locked",
+      "elapsed": 0
+    },
+    "bio-nauvis-1": 
+    {
+      "status": "locked"
+    },
+    "bio-nauvis-1a": 
+    {
+      "status": "locked"
+    },
+    "bio-nauvis-1b": 
+    {
+      "status": "locked"
+    },
+    "bio-nauvis-1c": 
+    {
+      "status": "locked"
+    },
+    "bio-vegetables-1": 
+    {
+      "status": "locked"
+    },
+    "bio-vegetables-1a": 
+    {
+      "status": "locked"
+    },
+    "bio-vegetables-1b": 
+    {
+      "status": "locked"
+    },
+    "bio-animals-1": 
+    {
+      "status": "locked"
+    },
     "electric-network": 
     {
       "status": "completed"
